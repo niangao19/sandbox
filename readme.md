@@ -289,13 +289,7 @@ make
 ```
 Please pack your files into a single `tar.gz` archive and submit your homework via the E3 system.
 
-## Grading
 
-1. [30%] Your program has the correct output for all test cases listed in the [examples](#Examples) section.
-
-1. [60%] We use `N` additional test cases to evaluate your implementation. You get $\frac{60}{N}$ points for each correct test case.
-
-1. [10%] If you can perform GOT hijacking without an external program, you get 10% * {ratio of the score you got from the above two items}.
 
    :::info
    You may leverage external libraries that can be installed from the official Ubuntu package repository using the `apt` command. In this case, please list your library dependencies as comments in the `Makefile` and ensure you use the correct parameters to link against the required libraries.
